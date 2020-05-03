@@ -14,7 +14,7 @@ while j<len(s):
         j += 1
         res = max(len(hash_set), res)
     else:
-        hash_set.discard(s[j])
+        hash_set.discard(s[i])
         i += 1
 
 print(res)
