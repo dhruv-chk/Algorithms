@@ -3,11 +3,11 @@ import numpy as np
 arr = [1,5,11,5]    # Given Input array
 W = sum(arr)/2      # W for knapsack
 
+# Problem became similar to subsequent sum problem. Therefore, the rest of the approach will be similar.
+
 if sum(arr)%2 != 0:
     print(False)
 else:
-    # Problem became similar to subsequent W problem. Therefore, the rest of the approach will be similar.
-
     # Create bottoms up array
     t = np.full((len(arr) + 1, W + 1), False)
 
