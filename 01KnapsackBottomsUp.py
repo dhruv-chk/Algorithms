@@ -5,7 +5,7 @@ val = [1, 4, 5, 7]  #values of items
 W = 7               #Capacity of bag
 
 # Initialize bottoms up matrix
-mat = np.full((len(wt)+1, W+1), 0)
+mat = np.full((len(wt)+1, W+1), 0) 
 
 # Choice diagram logic
 for i in range(1, len(wt) + 1):
