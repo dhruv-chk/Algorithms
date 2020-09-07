@@ -26,4 +26,3 @@ for i in range(0, len(arr) + 1):
 # Print answer
 print(t[len(arr)][sum])
 
-
