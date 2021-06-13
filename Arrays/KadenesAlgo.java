@@ -1,6 +1,8 @@
-public class MaximumSubsetSum {
+public class KadenesAlgo {
     public static void main(String[] args) {
         int arr[] = {-5,1,-2,3,-1,2,-2};
+        // Find the maximum sum of a subarray.
+        // In this case the maximum sum is 4 for the sub array 3, -1, 2.
         
         int maxEnding = arr[0], res = arr[0];
 
